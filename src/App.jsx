@@ -18,17 +18,17 @@ const ContentContainer = styled.main`
 `
 
 const App = () => {
-  return (
-    <>
-      <Wrapper>
-        <NavigationBar />
-        <ContentContainer>
-          <Routes />
-        </ContentContainer>
-        <Footer />
-      </Wrapper>
-    </>
-  )
+    return (
+        <>
+            <Wrapper>
+                <NavigationBar/>
+                <ContentContainer>
+                    <Routes/>
+                </ContentContainer>
+                <Footer/>
+            </Wrapper>
+        </>
+    )
 };
 
 export default App;
